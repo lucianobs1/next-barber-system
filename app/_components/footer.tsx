@@ -1,7 +1,3 @@
-import React from 'react';
-
-// import { Container } from './styles';
-
 const Footer = () => {
   return (
     <footer className="w-full bg-secondary py-6 px-5">
