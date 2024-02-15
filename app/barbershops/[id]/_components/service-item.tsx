@@ -49,7 +49,7 @@ const ServiceItem = ({
   useEffect(() => {
     const refreshAvailableHours = async () => {
       if (date) {
-        const _dayBookings = await getDayBookings(date);
+        const _dayBookings = await getDayBookings(barbershop.id, date);
         setDayBookings(_dayBookings);
       }
     };
